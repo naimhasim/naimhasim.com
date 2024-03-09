@@ -1,23 +1,18 @@
-import { GitBranch, Linkedin } from "lucide-react";
 import Link from "next/link";
-import { BiLogoBootstrap, BiLogoPostgresql } from "react-icons/bi";
-import { DiGithubBadge, DiNodejs } from "react-icons/di";
-import { FaLaravel, FaLinkedin, FaNodeJs } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io5";
-import { LiaNodeJs } from "react-icons/lia";
-import { SiNextdotjs, SiPostgresql, SiTailwindcss } from "react-icons/si";
+import { DiGithubBadge } from "react-icons/di";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function index() {
     return (
         <>
-            <div className="flex flex-col w-screen">
+            <div className="flex flex-col">
                 
-                <div className=" min-h-screen flex flex-col justify-center ">
+                <div className=" min-h-screen max-w-screen flex flex-col justify-center ">
                     {/* <small className="text-muted-foreground select-none">
                         <span className="underline">~/Users/naimhasim</span> on feature/portfolio[?] via Node <FaNodeJs className=" inline-block"/> v21.6.2
                     </small> */}
                     <p className="flex items-center mb-3">
-                        <span className="select-none">{'>'} &nbsp;</span>
+                        <span className="select-none">&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         <span className="text-xl font-medium inline-block">
                             Hey There! I&apos;m 
                             <span className="text-4xl block font-semibold ">Naim Hasim</span>
@@ -109,8 +104,8 @@ export default function index() {
                     </small> */}
                     
                     <p className="flex items-center">
-                        <span className="select-none">{'>'} &nbsp;</span>
-                        <span className="text-2xl font-semibold inline-block">
+                        <span className="select-none">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span className="underline text-2xl font-semibold inline-block">
                             My Timeline 
                         </span>
                     </p>

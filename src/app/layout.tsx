@@ -5,13 +5,12 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import NavBar from "./navbar";
 import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Naim Hasim",
-  description: "A developer story",
+  description: "A Dev story",
 };
 
 export default function RootLayout({
@@ -22,18 +21,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-background text-foreground`}>
-        <div className="flex justify-center">
-          <div className="flex justify-start w-3/4">
-            {/* left sidebar */}
-            <section className="flex flex-col justify-center w-[300px] h-screen">
-              <div className="flex flex-row sticky top-0">
-                
+        <div className="flex justify-center md:flex-row flex-col h-auto px-0 lg:px-48">
+          <div className="">
+            <div className="flex justify-center items-center h-screen sticky top-0">
                 {/* Information Card */}
-                <Card className="ml-10 my-3 mr-10 h-[450px] bg-background outline outline-0 outline-offset-0 border-0 shadow-none
+                <Card className="ml-10 my-3 mr-10 bg-background outline outline-0 outline-offset-0 border-0 shadow-none
                                 ">
                   <CardHeader>
                     <Link href={'/'}>
-                    <div className="relative rounded-md w-full borderTest">
+                    <div className="relative rounded-md w-full select-none">
                       <Image loading="lazy" className="self-center border" src={{src:'/Notion-.png', width: 300, height:10}} alt="Notion-.png"/>
                       </div>
                       </Link>
@@ -67,30 +63,18 @@ export default function RootLayout({
                     </div>
                   </CardContent>
                   <CardFooter className="flex justify-center">
-                    <Button className="bg-foreground">Download CV</Button>
+                    <Button className="bg-foreground select-none">Download CV</Button>
                   </CardFooter>
                 </Card>
-                
-                <Separator orientation="vertical" />
-                
-              </div>
-            </section>
-            
-            {/* right content */}
-            <section className="flex-grow overflow-y-auto no-scrollbar max-h-screen min-w-screen">
-              <NavBar/>
-              <div className="min-w-full h-full pt-0 p-10 break-words flex flex-row">
-                {children}
-              </div>
-            </section>
-            
+            </div>
+          </div>
+          <div className="w-screen">
+            {children}
           </div>
         </div>
         {/* Footer */}
-        {/* <footer className="flex justify-center mt-2">
-          <div className="flex justify-center w-3/4 ">
-            <ul className="mt-4">© 2024 Naim Hasim. All rights reserved.</ul>
-          </div>
+        {/* <footer className="flex justify-center items-center border h-auto">
+          <ul className="p-2">© 2024 Naim Hasim. All rights reserved.</ul>
         </footer> */}
       </body>
     </html>
