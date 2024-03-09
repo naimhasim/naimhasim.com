@@ -29,11 +29,11 @@ export default function index() {
                     <hr></hr>
                     
                     <div className="p-6 text-muted-foreground">
-                        <p>I've always had a passion for crafting digital creations on the web. My journey into software development began in 2011 when I delved into crafting custom widgets for my blogspot, which unexpectedly taught me a great deal about HTML.</p>
+                        <p>I&apos;ve always had a passion for crafting digital creations on the web. My journey into software development began in 2011 when I delved into crafting custom widgets for my blogspot, which unexpectedly taught me a great deal about HTML.</p>
                         <br></br>
-                        <p>Today, I hold a Bachelor's degree in Computer Science and am deeply immersed in mastering the Laravel framework  for constructing sophisticated, scalable, and dependable systems.</p>
+                        <p>Today, I hold a Bachelor&apos;s degree in Computer Science and am deeply immersed in mastering the Laravel framework  for constructing sophisticated, scalable, and dependable systems.</p>
                         <br></br>
-                        <p>In my journey from crafting simple blog widgets to developing intricate web systems, I've come to appreciate the artistry and precision required in software development. With each project, I strive to push the boundaries of what's possible, all while staying true to the core principles of <span className="underline">craftsmanship</span>, <span className="underline">efficiency</span>, and <span className="underline">reliability</span>.</p>
+                        <p>In my journey from crafting simple blog widgets to developing intricate web systems, I&apos;ve come to appreciate the artistry and precision required in software development. With each project, I strive to push the boundaries of what&apos;s possible, all while staying true to the core principles of <span className="underline">craftsmanship</span>, <span className="underline">efficiency</span>, and <span className="underline">reliability</span>.</p>
                             
                     </div>
                     <div className="pl-5 flex flex-row justify-start w-full gap-4">
@@ -144,7 +144,7 @@ export default function index() {
                     <hr></hr>
                     <div className="p-5">
                         <h4 className="text-xl font-bold">Universiti Teknologi Mara (UiTM)</h4>
-                        <p className=" bg-slate-100 w-fit p-1 rounded-xl">Bachelor's degree, Computer Science</p>
+                        <p className=" bg-slate-100 w-fit p-1 rounded-xl">Bachelor&apos;s degree, Computer Science</p>
                         <p className="text-muted-foreground">Mar 2020 - Aug 2022</p>
                         <p>Executive Committee member of Computer Science Club at UiTM Shah Alam</p>
                         <p>Participated in training workshop ‘Web-based Development using Laravel Framework’</p>

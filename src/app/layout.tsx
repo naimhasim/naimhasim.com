@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import NavBar from "./navbar";
+import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -32,7 +33,9 @@ export default function RootLayout({
                                 ">
                   <CardHeader>
                     <Link href={'/'}>
-                      <img className="self-center border" src="Notion-.png" alt="Example" width={'100%'} />
+                    <div className="relative rounded-md w-full borderTest">
+                      <Image loading="lazy" className="self-center border" src={{src:'/Notion-.png', width: 300, height:10}} alt="Notion-.png"/>
+                      </div>
                       </Link>
                     <CardTitle className="text-center">Naim Hasim</CardTitle>
                     <CardDescription className="text-center">(He/him)</CardDescription>
