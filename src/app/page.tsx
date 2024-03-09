@@ -19,7 +19,7 @@ export default function index() {
                     <p className="flex items-center mb-3">
                         <span className="select-none">{'>'} &nbsp;</span>
                         <span className="text-xl font-medium inline-block">
-                            Hey There! I'm 
+                            Hey There! I&apos;m 
                             <span className="text-4xl block font-semibold ">Naim Hasim</span>
                             a <span className="text-xl font-semibold bg-slate-900 rounded-sm text-white">Full Stack Developer </span>
                             <span className="">&nbsp;based in Malaysia.</span>
