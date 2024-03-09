@@ -147,7 +147,7 @@ export default function index() {
                         <p className=" bg-slate-100 w-fit p-1 rounded-xl">Bachelor&apos;s degree, Computer Science</p>
                         <p className="text-muted-foreground">Mar 2020 - Aug 2022</p>
                         <p>Executive Committee member of Computer Science Club at UiTM Shah Alam</p>
-                        <p>Participated in training workshop ‘Web-based Development using Laravel Framework’</p>
+                        <p>Participated in training workshop &apos;Web-based Development using Laravel Framework&apos;</p>
                     </div>
                     <hr></hr>
                 </div>
