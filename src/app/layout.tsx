@@ -31,7 +31,7 @@ export default function RootLayout({
                 <FaBars />
               </Card>
             </PopoverTrigger>
-            <PopoverContent className="w-screen border">
+            <PopoverContent className="w-screen">
               <div className="">
                 <div><Button variant="link"><Link href={'/'}>Home</Link></Button></div>
                 <div><Button variant="link"><Link href={'/projects'}>Projects</Link></Button></div>
@@ -40,8 +40,8 @@ export default function RootLayout({
             </PopoverContent>
           </Popover>
         </div>
-        <div className="hidden sm:flex justify-between w-full flex-col sm:flex-row px-0 sm:px-16 lg:px-24 xl:px-48 border fixed bg-background shadow-sm p-3 z-10">
-          <div className="flex gap-5 justify-start items-center sm:w-full md:w-1/2 border">
+        <div className="hidden sm:flex justify-between w-full flex-col sm:flex-row px-0 sm:px-16 lg:px-24 xl:px-48 fixed bg-background shadow-sm p-3 z-10">
+          <div className="flex gap-5 justify-start items-center sm:w-full md:w-1/2">
             <div><Button variant="link"><Link href={'/'}>Home</Link></Button></div>
             <div><Button variant="link"><Link href={'/projects'}>Projects</Link></Button></div>
           </div>
