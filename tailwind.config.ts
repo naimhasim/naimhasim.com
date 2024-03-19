@@ -14,7 +14,7 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
-        'sm': '640px',   // Small screens, like mobile (default)
+        'sm': '480px',   // Small screens, like mobile (default)
         'md': '768px',   // Medium screens, like tablets
         'lg': '1024px',  // Large screens, like laptops/desktops
         'xl': '1280px',  // Extra large screens

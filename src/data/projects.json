@@ -1,0 +1,25 @@
+{
+
+    "projects": [
+        {
+            "name": "QadaSolat: Compensating for Missed Salah Throughout One's Lifetime",
+            "description": "Qadasolat is designed to help Muslims keep track of missed prayers (qada solat) and make up for them.",
+            "date": "March 2024",
+            "demo":"https://qadasolat.vercel.app",
+            "github":"https://github.com/naimhasim/qadasolat",
+            "tag": [
+                "Next.js","Tailwind CSS"
+            ]
+        },
+        {
+            "name": "FYP: Crime Reporting System",
+            "description": "Crime reporting system allows users to lodge police report without having to go to the police station and view crime density as geospatial data using Leaflet interactive map.",
+            "date": "November 2021",
+
+            "github":"https://github.com/naimhasim/crime-reporting-system",
+            "tag": [
+                "Laravel", "Bootstrap", "Jquery"
+            ]
+        }
+    ]
+}

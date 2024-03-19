@@ -5,13 +5,14 @@ import { FaLinkedin } from "react-icons/fa";
 export default function index() {
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex flex-col sm:px-12 md:px-0">
                 
-                <div className=" min-h-screen max-w-screen flex flex-col justify-center ">
+                <div className="sm:min-h-min sm:pb-10 md:min-h-screen max-w-screen flex flex-col justify-center ">
                     {/* <small className="text-muted-foreground select-none">
                         <span className="underline">~/Users/naimhasim</span> on feature/portfolio[?] via Node <FaNodeJs className=" inline-block"/> v21.6.2
                     </small> */}
-                    <p className="flex items-center mb-3">
+                    <h1 className="text-center pb-10 text-3xl  sm: md:pt-24 lg:pt-0  font-bold">{'<'}About Me{'/>'}</h1>
+                    {/* <p className="flex items-center mb-3">
                         <span className="select-none">&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         <span className="text-xl font-medium inline-block">
                             Hey There! I&apos;m 
@@ -19,11 +20,11 @@ export default function index() {
                             a <span className="text-xl font-semibold bg-slate-900 rounded-sm text-white">Full Stack Developer </span>
                             <span className="">&nbsp;based in Malaysia.</span>
                         </span>
-                    </p>
+                    </p> */}
                     
                     <hr></hr>
                     
-                    <div className="p-6 text-muted-foreground">
+                    <div className="p-6">
                         <p>I&apos;ve always had a passion for crafting digital creations on the web. My journey into software development began in 2011 when I delved into crafting custom widgets for my blogspot, which unexpectedly taught me a great deal about HTML.</p>
                         <br></br>
                         <p>Today, I hold a Bachelor&apos;s degree in Computer Science and am deeply immersed in mastering the Laravel framework  for constructing sophisticated, scalable, and dependable systems.</p>
