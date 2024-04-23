@@ -2,6 +2,16 @@
 
     "projects": [
         {
+            "name": "Cover Swift: Frontend Development",
+            "description": "A responsive landing page emphasizing insurance services built with Tailwind CSS.",
+            "date": "April 2024",
+            "demo":"https://coverswift.naimhasim.com/",
+            "github":"https://github.com/naimhasim/cover-swift",
+            "tag": [
+                "Laravel","Tailwind CSS"
+            ]
+        },
+        {
             "name": "QadaSolat: Compensating for Missed Salah Throughout One's Lifetime",
             "description": "Qadasolat is designed to help Muslims keep track of missed prayers (qada solat) and make up for them.",
             "date": "March 2024",
