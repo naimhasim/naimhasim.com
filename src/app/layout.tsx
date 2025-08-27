@@ -35,7 +35,7 @@ export default function RootLayout({
               <div className="">
                 <div><Button variant="link"><Link href={'/'}>Home</Link></Button></div>
                 <div><Button variant="link"><Link href={'/projects'}>Projects</Link></Button></div>
-                <div><Button variant="link"><Link href={'/RESUME - MUHAMAD NAIM.pdf'}>Resume</Link></Button></div>
+                <div><Button variant="link"><Link href={'/resume'}>Resume</Link></Button></div>
               </div>
             </PopoverContent>
           </Popover>
@@ -48,7 +48,7 @@ export default function RootLayout({
           
           <div className="">
             <Button size={"sm"} className="bg-foreground select-none">
-              <Link href={'/RESUME - MUHAMAD NAIM.pdf'}>{'Resume'}</Link>
+              <Link href={'/resume'}>{'Resume'}</Link>
             </Button>
           </div>
           
